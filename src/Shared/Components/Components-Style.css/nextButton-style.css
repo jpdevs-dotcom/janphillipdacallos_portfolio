@@ -1,0 +1,39 @@
+.next-button img {
+    transform: rotate(90deg);
+    width: 1.5em;
+    padding: .5em;
+    cursor: pointer;
+}
+.next-button {
+    border: 2px solid #6C63FE;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #fff;
+}
+.next-button:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    right: 0;
+    border-radius: 50%;
+    border: 2px solid #6C63FE;
+    background-color: #6C63FE;
+    z-index: -1;
+    opacity: 70%;
+    animation: continuous_swipe 1s ease infinite;
+}
+
+@keyframes continuous_swipe {
+    0% {
+        right: 0;
+        opacity: 100%;
+    }
+    100% {
+        right: 40%;
+        opacity: 0%;
+    }
+}

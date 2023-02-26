@@ -1,0 +1,72 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.home .home-context {
+    display: flex;
+    gap: 2.5em;
+    align-items: center;
+}
+.home .home-image img {
+    width: 20em;
+    border-radius: 40% 60% 61% 39% / 30% 47% 53% 70% ;
+    position: relative;
+    filter: saturate(130%);
+}
+.home .home-image {
+    position: relative;
+}
+.home .home-image:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 2%;
+    right: 3%;
+    border-radius: 40% 60% 61% 39% / 30% 47% 53% 70% ;
+    background-color: #6C63FE;
+}
+.home .home-details {
+    text-align: right;
+}
+.home .home-details h1 {
+    font-size: 2.5em;
+}
+.home .home-details h4 {
+    font-weight: 500;
+    margin: -.5em 0 .5em 0;
+}
+.home .home-details .home-btn a {
+    background-color: #6C63FE;
+    padding: .5em 1.5em;
+    display: flex;
+    gap: .5em;
+    align-items: center;
+    float: right;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 1em;
+    position: relative;
+    z-index: 1;
+}
+.home .home-details .home-btn a img {
+    width: 1.5em;
+}
+.home .home-details .home-btn a:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0;
+    top: 0;
+    left: 0;
+    background-color: #8b85ff;
+    z-index: -1;
+    border-radius: 5px;
+    transition: .3s ease;   
+}
+.home .home-details .home-btn a:hover:before {
+    width: 100%;
+}

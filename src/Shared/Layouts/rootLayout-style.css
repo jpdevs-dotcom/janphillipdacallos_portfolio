@@ -1,0 +1,29 @@
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.portfolio-body {
+    display: flex;
+    gap: 1em;
+}
+.layout-children {
+    padding: 0 7em;
+}
+span {
+    color: #6C63FE;
+}
+.root-layout video {
+    position: absolute;
+    object-fit: cover;
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+    opacity: 18%;
+}
+.portfolio-medias {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    position: fixed;
+}

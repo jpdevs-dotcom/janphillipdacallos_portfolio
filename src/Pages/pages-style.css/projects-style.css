@@ -1,0 +1,44 @@
+.projects {
+    padding: 5em 0;
+}
+.projects .projects-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.projects .projects-content img {
+    width: 25em;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.projects .projects-content > div {
+    margin: 1em 2em 1em 0;
+}   
+.projects .projects-content .img {
+    position: relative;
+}
+.projects .projects-content .img:after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    bottom: 0;
+    left: 0;
+    background-color: #6C63FE;
+    opacity: 30%;
+    transition: .3s ease;
+}
+.projects .projects-content .img:hover:after {
+    height: 0;
+}
+.projects .projects-content > div ul {
+    display: flex;
+}
+.projects .projects-content > div ul li {
+    list-style: none;
+    background-color: #f2f2f2;
+    padding: .3em 1em;
+    margin: .5em .5em;
+    font-size: .7em;
+    border-radius: 5px;
+}

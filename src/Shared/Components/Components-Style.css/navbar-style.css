@@ -1,0 +1,28 @@
+a {
+    text-decoration: none;
+    color: #2F2E41;
+}
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 20;
+}
+.navbar-logo h1 {
+    letter-spacing: 1px;
+}
+.nav-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 3em;
+}
+.nav-items ul {
+    display: flex;
+}
+.nav-items ul li {
+    list-style: none;
+    padding: 0 1.5em;
+}
+.nav-items ul li a:hover {
+    color: #6C63FE;
+}

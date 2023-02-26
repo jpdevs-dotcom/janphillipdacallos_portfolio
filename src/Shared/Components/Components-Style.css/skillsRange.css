@@ -1,0 +1,59 @@
+.bar {
+    height: .7em;
+    float: left;
+    background-color: #6C63FE;
+    border-radius: 50px;
+    width: 0;
+}
+.bar-background {
+    background-color: #b0abc0;
+    align-items: center;
+    display: flex;
+    border-radius: 50px;
+}
+.html, .css {
+    animation: html_css_range 1s forwards;
+}
+.react {
+    animation: react_range 1s forwards;
+}
+.mysql {
+    animation: mysql_range 1s forwards;
+}
+.javascript {
+    animation: javascript_range 1s forwards;
+}
+
+
+@keyframes html_css_range {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 95%;
+    }
+}
+@keyframes react_range {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 50%;
+    }
+}
+@keyframes mysql_range {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 95%;
+    }
+}
+@keyframes javascript_range {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 85%;
+    }
+}

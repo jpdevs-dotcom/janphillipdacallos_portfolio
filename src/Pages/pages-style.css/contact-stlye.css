@@ -1,0 +1,122 @@
+.contact {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: space-between;
+    gap: 3em;
+}
+form {
+    background-color: #fff;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 1px #f2f2f2;
+}
+form .user-info {
+    display: flex;
+    gap: 1em;
+    margin-bottom: 1em;
+}
+form label {
+    font-size: .8em;
+}
+form .user-info input {
+    width: 15em;
+    padding: 1em 1.5em;
+    border-radius: 5px;
+    border: none;
+    background-color: #e4e2ff;
+}
+form .user-info input:focus,
+form textarea:focus {
+    outline-color: #6C63FE;
+}
+form .user-info > div {
+    display: flex;
+    flex-direction: column;
+}
+form .message-holder {
+    display: flex;
+    flex-direction: column;
+}
+form h2 {
+    display: flex;
+    margin-bottom: 1em;
+}
+form h2 span {
+    padding: 0 .3em;
+}
+form h2 img {
+    width: 1.3em;
+}
+form .form-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+form .form-buttons button {
+    padding: .3em 2em;
+    margin-top: 1em;
+    border-radius: 5px;
+    border: 2px solid #6C63FE;
+    background-color: #6C63FE;
+    color: #fff;
+    cursor: pointer;
+    transition: .3s ease;
+}
+form .form-buttons button:nth-child(2) {
+    background-color: transparent;
+    color: #6C63FE;
+    padding: .3em 3em;
+}
+form .form-buttons button:nth-child(1) {
+    display: flex;
+    align-items: center;
+    gap: .5em;
+}
+form .form-buttons button:nth-child(1):hover {
+    background-color: #8e86ff;
+    border-color: #8e86ff;
+}
+form .form-buttons button:nth-child(2):hover {
+    background-color: #6C63FE;
+    color: #fff;
+}
+form .form-buttons button:nth-child(1) img {
+    width: 2em;
+}
+form textarea {
+    border: none;
+    background-color: #e4e2ff;
+    padding: 1em 1.5em;
+    border-radius: 5px;
+    resize: none;
+    height: 12em;
+}
+.contact-context h1 {
+    font-size: 3em;
+    padding-bottom: .5em;
+}
+.contact-context .email-content {
+    background-color: #fff;
+    padding: 1em;
+    box-shadow: 0 0 15px 1px #f2f2f2;
+    margin-top: 1em;
+    border-radius: 5px;
+}
+.contact-context .email-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    width: 20em;
+}
+.contact-context img {
+    background-color: #e4e2ff;
+    padding: .5em 1em;
+    border-radius: 50px;
+}
+.contact-context .personal-email a {
+    text-decoration: underline;
+}
+.contact-context .personal-email a:hover {
+    color: #6C63FE;
+}
